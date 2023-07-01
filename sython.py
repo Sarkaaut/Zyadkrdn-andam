@@ -46,7 +46,7 @@ bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
-DEVS = [5159123009]
+DEVS = [5789819429]
 
 
 
@@ -75,11 +75,11 @@ async def join_channel(event):
         
         
         
-@sython1.on(events.NewMessage(outgoing=False, pattern='.فحص'))
+@sython1.on(events.NewMessage(outgoing=False, pattern='.تاقیکردنەوە'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**سەرچاوەکە کاردەکات ⚡️**')
         
         
 @sython1.on(events.NewMessage(outgoing=False, pattern='/TEST'))
@@ -89,7 +89,7 @@ async def OwnerStart(event):
         order = await event.reply('**the source is running ⚡️**')
 
 
-@sython1.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
+@sython1.on(events.NewMessage(outgoing=False, pattern='.help'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :

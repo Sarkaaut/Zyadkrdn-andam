@@ -86,7 +86,7 @@ async def OwnerStart(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**سەرچاوەکە کاردەکات ⚡️**')
 
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='.help'))
@@ -94,19 +94,19 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ مرحبا بك في اوامر سـايثـون بـوينت
+⚝ بەخێربێن بۆ فەرمانەکانی كورد پوینت
  
-============= • 𝐒𝐘 • ============
+============= • SA • ============
 
-𝟏 - للدخول الى اوامر التجميع : .تجميع
+𝟏 - بۆ داخڵکردنی داواکاری کۆکردنەوە : .کۆکردنەوە
 
-𝟐 - للدخول الى اوامر التحـكم : .تحكم
+𝟐 - بۆ داخڵکردنی فەرمانەکانی کۆنترۆڵ : .کۆنترۆڵ
 
-𝟑 - للدخول الى اوامر مـمـيـزة : .مميزة
+𝟑 - بۆ داخڵکردنی ڕێزبەندی جیاواز : .تایبەتمەندی
 
-𝟒 - لـفـحص عـمـل الـســورس : .فحص
+𝟒 - بۆ پشکنینی کاری سەرچاوەکە : .تاقیکردنەوە
 
-============= • 𝐒𝐘 • ============
+============= • SA • ============
 **""")
 
 
@@ -115,42 +115,41 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ قـائمة جميع اوامر التجميع التي تحتاجها
+⚝ هەموو ئەو فەرمانانەی وەجبە کە پێویستت پێیانە بنووسە
 
 ============= • 𝐒𝐘 • ============
 
-`/point1` :  تجميع نقاط بوت المليار
-`/point2` : تجميع نقاط بوت الجوكر 
-`/point3` :  تجميع نقاط بوت العقاب 
-`/point4` :   تجميع نقاط بوت العرب
+`/point1` :  خاڵەکانی بۆت المليار کۆبکەرەوە
+`/point2` : خاڵەکانی بۆت الجوكر کۆبکەرەوە
+`/point3` :  خاڵەکانی بۆت العقاب کۆبکەرەوە 
+`/point4` :   خاڵەکانی بۆت العرب کۆبکەرەوە
 
-note : تستخدم هذه الاوامر بأرسالها الى الحساب او بأرسالها الى مجموعة يوجد فيها الحساب
-
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-
-`/point + bot` : تجميع نقاط بوت غير موجود في القائمة
-
-note : يوزر البوت المطلوب bot ضع مكان الـ
+note : ئەم فەرمانانە بە ناردنیان بۆ ئەکاونتەکە یان بە ناردنیان بۆ گروپێک کە ئەکاونتەکە تێیدا هەڵکەوتووە بەکاردەهێنرێن
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-`/somy + bot + second` : تجميع لانهائي 
+`/point + bot` : کۆکردنەوەی خاڵەکانی بۆت لە لیستەکەدا نییە
 
-note : يوزر البوت المطلوب bot ضع مكان الـ 
-
-note : عدد الثواني second ضع مكان الـ
-
-note : ننصحك بوضع عدد الثواني 300
+note : بۆ دانانی بۆتەکە لە شوێنی خۆیدا بۆتی پێویست بەکاربهێنە
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-`/join` : الانضمام الى قنوات البوتات المذكورة
+`/somy + bot + second` : کۆکردنەوەی بێکۆتایی 
 
-`/transfer` : الدخول لقائمة تحويل نقاط
+note : بۆ دانانی بۆتەکە لە شوێنی خۆیدا بۆتی پێویست بەکاربهێنە
 
-`/infoacc` : الدخول لقائمة تحويل معلومات
+note : دووەم ژمارەی چرکەکان دابنێ
 
-`/lpoint` : لمغادرة جميع القنوات والمجموعات
+note : پێشنیار دەکەین ژمارەی چرکەکان لەسەر ٣٠٠ دابنێیت
+
+╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+
+`/join` : بەشداری ئەو کەناڵە بۆتانەی کە باسکراون
+
+`/transfer` : لیستی گواستنەوەی خاڵەکان بنووسە
+`/infoacc` : لیستی زانیاری گواستنەوە داخڵ بکە
+
+`/lpoint` : بۆ دەرچوون لە هەموو کەناڵ و گروپەکان
 
 ============= • 𝐒𝐘 • ============
 **""")
@@ -160,33 +159,33 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ قائمة اوامر التحكم بالحساب
+⚝ لیستی فەرمانەکانی کۆنترۆڵکردنی ئەکاونت
 
 ============= • 𝐒𝐘 • ============
 
-𝟏 - لتحويل اخر رسالة من مستخدم معين او بوت :
+𝟏 - بۆ گواستنەوەی دوا پەیام لە بەکارهێنەرێک یان بۆتێکی دیاریکراوەوە :
 
-`/forward + يوزر الحساب او البوت`
-
-╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
-
-𝟐 - لأرسال رسالة الى مستخدم معين او بوت : 
-
-`/send + الرسالة + يوزر الحساب او البوت`
+`/forward + ئەکاونتی بەکارهێنەر یان بۆت`
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-𝟑 - لجعل الحساب ينقر على زر شفاف في بوت : 
+𝟐 - بۆ ناردنی نامە بۆ بەکارهێنەرێک یان بۆتێکی دیاریکراو : 
 
-`/button + رقم الزر الشفاف + يوزر البوت`
-
-note :  قم بحساب رقم الزر الشفاف من العدد 0
+`/send + نامەكە + ئەکاونتی بەکارهێنەر یان بۆت`
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-𝟒 - لجعل الحساب ينضم الى قناة او مجموعة
+𝟑 - بۆ ئەوەی ئەکاونتەکە بێت کلیک لەسەر دوگمەی شەفاف بکە لە بۆتەکەدا : 
 
-`/jn + يوزر القناة او المجموعة `
+`/button + ژمارەی دوگمەی شەفاف + بەکارهێنەری بۆت`
+
+note :  ژمارەی دوگمەی شەفاف لە ژمارە 0 ەوە حیساب بکە
+
+╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
+
+𝟒 - بۆ ئەوەی ئەکاونتەکە بەشداری کەناڵێک یان گروپێک بکات
+
+`/jn + سەردانی کەناڵ یان گروپ دەکات `
 
 ============= • 𝐒𝐘 • ============
 **""")
@@ -196,28 +195,28 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ قائمة الاوامر المميزة 
+⚝ لیستی فەرمانە تایبەتەکان
 ============= • 𝐒𝐘 • ============
 
-𝟏 - لتفعيل بوت عبر الدخول الى رابط الدعوه : 
+𝟏 - بۆ چالاککردنی بۆتەکە بە چوونە ژوورەوەی بەستەری بانگهێشتنامە : 
 
-`/bot + ايدي الحساب + يوزر البوت`
+`/bot + ئایدی ئەکاونت + بەکارهێنەری بۆت`
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-𝟐 - الامر التالي يحتوي على ملاحظات تحتاجها :
+𝟐 - ئەم فرمانەی خوارەوە ئەو تێبینیانەی تێدایە کە پێویستت پێیانە :
 
 `/notes`
 
-𝟑 - لجعل الحساب يصوت في مسابقة لايكات :
+𝟑 - بۆ ئەوەی ئەکاونتەکە دەنگ بدات لە پێشبڕکێی لایکەکاندا :
 
 `/voice + موقع الرسالة + يوزر القناة`
 
-note : موقع الرسالة يعني مثلا اذا كان الاسم في قناة المسابقة اخر اسم او اخر منشور فأن موقع الرسالة 1 وان تكن قبل الاخير فأن موقها 2 وهكذا  بقية المواقع 
+note : شوێنی نامەکە مانای ئەوەیە، بۆ نمونە ئەگەر ناوی ناو کەناڵی پێشبڕکێکە ناوی کۆتایی یان کۆتا پۆست بێت، ئەوا شوێنی نامەکە ١ بێت، وە ئەگەر پێش کۆتا نامەکە بێت، ئەوا شوێنەکەی ٢ دەبێت، و بەم شێوەیە بۆ باقی سایتەکان
 
-𝟒 - لجعل الحساب يغادر قناة او مجموعة :
+𝟒 - بۆ ئەوەی ئەکاونتەکە کەناڵێک یان گروپێک بەجێبهێڵێت :
 
-`/lv + يوزر القناة`
+`/lv + یوزرنیمی کەناڵ`
 
 ============= • 𝐒𝐘 • ============
 **""")
@@ -227,35 +226,37 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-1 - اذا كنت تريد التحكم بالحسابات في التحميع وتحويل النقاط ومعرفة معلومات كل حساب قم بأنشاء مجموعة خاصة وادخل الحسابات التي قمت بتنصيب لها السورس وارفع الحسابات الى مشرفين ثم استخدم اوامر التجميع 
+1 - ئەگەر دەتەوێت ئەکاونتەکانی ناو کۆکردنەوە کۆنتڕۆڵ بکەیت، خاڵەکانی گواستنەوە و زانیاری هەر ئەکاونتێک بزانیت، گروپێکی تایبەت دروست بکە و ئەو ئەکاونتانە داخڵ بکە کە سەرچاوەکەت بۆ دامەزراندووە و ئەکاونتەکان بەرز بکەرەوە بۆ سەرپەرشتیارەکان، پاشان فەرمانەکانی کۆکردنەوە بەکاربهێنە
 
-2 - اذا كنت تريد جعل الحسابات تقوم بتجميع النقاط بدون توقف ونسبة قليلة من الحظر استخدم الامر : somy/ 
-بأمكانك معرفة المزيد عن الامر وكيفية استخدامه في قائمة .تجميع ويستحسن عند استعمال الامر وضع عدد الثواني 300 اي يعني هذا عند حدوث خطأ في التجميع او انتهت القنوات فسوف يقوم السورس بالمحاولة في التجميع تلقائيا بعد مرور 300 اي خمس دقائق وسوف يقوم السورس بأخبارك جميع ماتم الوصول اليه من الامر ويمكنك ايقاف التجميع بأرسال .اعادة تشغيل 
+2 - ئەگەر دەتەوێت وا لە ئەکاونتەکان بکەیت خاڵەکان کۆبکەنەوە بەبێ وەستان و ڕێژەیەکی کەم لە قەدەغەکردنەکان، ئەوا فەرمانەکە 
+بەکاربهێنە : somy/ 
 
-3 - اذا كنت تريد تجميع نقاط بوتات التمويل بطريقة اعتيادية بدون المحاولة مرة اخرى تلقائيا يمكن استخدام الاوامر التالية [point , /point1/ , .....] يمكنك مراجعة الاوامر في القائمة .تجميع في اول قسمين من القائمة
+دەتوانیت زیاتر دەربارەی فەرمانەکە و چۆنیەتی بەکارهێنانی لە لیستی کۆمپایڵکردندا بزانیت، پێشنیار دەکرێت لە کاتی بەکارهێنانی فرمانەکەدا ژمارەی چرکەکان دابنێیت بۆ ٣٠٠، واتە کاتێک هەڵەیەک لە کۆمپایڵکردنەکەدا ڕوودەدات یان کەناڵەکان کۆتاییان دێت، سەرچاوەکە هەوڵدەدات دوای ٣٠٠ واتە پێنج خولەک بە شێوەیەکی ئۆتۆماتیکی کۆمپایڵ بکات و سەرچاوەکە ئاگادارت دەکاتەوە لە هەموو ئەو شتانەی کە گەیشتوونەتە دەست
+
+3 - ئەگەر دەتەوێت خاڵەکانی بۆتەکانی پارەدان بە شێوەیەکی ئاسایی کۆبکەیتەوە بەبێ ئەوەی بە شێوەیەکی ئۆتۆماتیکی هەوڵی دووبارە بدەیتەوە، دەتوانیت ئەم فرمانانەی خوارەوە بەکاربهێنیت [point , /point1/ , .....] دەتوانیت پێداچوونەوە بە فرمانەکانی ناو لیستەکەدا بکەیت دوو بەشی یەکەمی لیستەکە
 **""")
 
-@sython1.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
+@sython1.on(events.NewMessage(outgoing=True, pattern=".help"))
 async def _(event):
       await event.edit("""**
-〠 اوامر حساب المستخدم 
+〠 فەرمانەکانی ئەژمێری بەکارهێنەر
 
-• بوت تمويل المليار  - `.تجميع المليار`
+• بۆت زیادکردنی ئەندام المليار  - `.تجميع المليار`
 
-• بوت تمويل الجوكر - `.تجميع الجوكر`
+• بۆت زیادکردنی ئەندام الجوكر - `.تجميع الجوكر`
 
-• بوت تمويل العقـاب - `.تجميع العقاب`
+• بۆت زیادکردنی ئەندام العقـاب - `.تجميع العقاب`
 
-• بوت تمويل العـرب  - `.تجميع العرب `
+• بۆت زیادکردنی ئەندام العـرب  - `.تجميع العرب `
 
-• فحص السورس      - `.فحص`**""")
+• پشکنینی سەرچاوە      - `.تاقیکردنەوە`**""")
 
 
 
-@sython1.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
+@sython1.on(events.NewMessage(outgoing=True, pattern=r"\.تاقیکردنەوە"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("**جاري الفحص..**")
+    await event.edit("**پشکنین لە پێشکەوتندایە..**")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
@@ -274,8 +275,8 @@ async def _(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+        await event.reply("خاڵەکان کۆدەکرێنەوە")
+        await event.edit("خاڵەکان کۆدەکرێنەوە")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_username)
         await sython1.send_message(bot_username, '/start')
@@ -293,8 +294,8 @@ async def OwnerStart(event):
             list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython1.send_message(event.chat_id, f"تم الانتهاء من التجميع | SY")
+            if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                await sython1.send_message(event.chat_id, f"کۆکردنەوە تەواو بوو | SA")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -305,23 +306,23 @@ async def OwnerStart(event):
                     bott = url.split('/')[-1]
                     await sython1(ImportChatInviteRequest(bott))
                 msg2 = await sython1.get_messages(bot_username, limit=1)
-                await msg2[0].click(text='تحقق')
+                await msg2[0].click(text='پشتڕاستکردنەوە')
                 chs += 1
-                await event.edit(f"تم الانضمام في {chs} قناة")
+                await event.edit(f"لە کەناڵی {chs} بەشداری کردووە")
             except:
                 msg2 = await sython1.get_messages(bot_username, limit=1)
                 await msg2[0].click(text='التالي')
                 chs += 1
-                await event.edit(f"القناة رقم {chs}")
+                await event.edit(f"کەناڵی ژمارە {chs}")
 
-        await sython1.send_message(event.chat_id, "تم الانتهاء من التجميع | SY")
+        await sython1.send_message(event.chat_id, "کۆکردنەوە تەواو بوو | SA")
         
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+        await event.reply("خاڵەکان کۆدەکرێنەوە")
+        await event.edit("خاڵەکان کۆدەکرێنەوە")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernamee)
         await sython1.send_message(bot_usernamee, '/start')
@@ -339,8 +340,8 @@ async def OwnerStart(event):
             list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython1.send_message(event.chat_id, f"تم الانتهاء من التجميع | SY")
+            if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                await sython1.send_message(event.chat_id, f"کۆکردنەوە تەواو بوو | SA")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -353,21 +354,21 @@ async def OwnerStart(event):
                 msg2 = await sython1.get_messages(bot_usernamee, limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await event.edit(f"تم الانضمام في {chs} قناة")
+                await event.edit(f"لە کەناڵی {chs} بەشداری کردووە")
             except:
                 msg2 = await sython1.get_messages(bot_usernamee, limit=1)
                 await msg2[0].click(text='التالي')
                 chs += 1
-                await event.edit(f"القناة رقم {chs}")
+                await event.edit(f"کەناڵی ژمارە {chs}")
 
-        await sython1.send_message(event.chat_id, "تم الانتهاء من التجميع | SY")
+        await sython1.send_message(event.chat_id, "کۆکردنەوە تەواو بوو | SA")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point3'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+        await event.reply("خاڵەکان کۆدەکرێنەوە")
+        await event.edit("خاڵەکان کۆدەکرێنەوە")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernameee)
         await sython1.send_message(bot_usernameee, '/start')
@@ -385,8 +386,8 @@ async def OwnerStart(event):
             list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython1.send_message(event.chat_id, f"تم الانتهاء من التجميع | SY")
+            if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                await sython1.send_message(event.chat_id, f"کۆکردنەوە تەواو بوو | SA")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -399,21 +400,21 @@ async def OwnerStart(event):
                 msg2 = await sython1.get_messages(bot_usernameee, limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await event.edit(f"تم الانضمام في {chs} قناة")
+                await event.edit(f"لە کەناڵی {chs} بەشداری کردووە")
             except:
                 msg2 = await sython1.get_messages(bot_usernameee, limit=1)
                 await msg2[0].click(text='التالي')
                 chs += 1
-                await event.edit(f"القناة رقم {chs}")
+                await event.edit(f"کەناڵی ژمارە {chs}")
 
-        await sython1.send_message(event.chat_id, "تم الانتهاء من التجميع | SY")
+        await sython1.send_message(event.chat_id, "کۆکردنەوە تەواو بوو | SA")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point4'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+        await event.reply("خاڵەکان کۆدەکرێنەوە")
+        await event.edit("خاڵەکان کۆدەکرێنەوە")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernameeee)
         await sython1.send_message(bot_usernameeee, '/start')
@@ -431,8 +432,8 @@ async def OwnerStart(event):
             list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython1.send_message(event.chat_id, f"تم الانتهاء من التجميع | SY")
+            if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                await sython1.send_message(event.chat_id, f"کۆکردنەوە تەواو بوو | SA")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -445,19 +446,19 @@ async def OwnerStart(event):
                 msg2 = await sython1.get_messages(bot_usernameeee, limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await event.edit(f"تم الانضمام في {chs} قناة")
+                await event.edit(f"لە کەناڵی {chs} بەشداری کردووە")
             except:
                 msg2 = await sython1.get_messages(bot_usernameeee, limit=1)
                 await msg2[0].click(text='التالي')
                 chs += 1
-                await event.edit(f"القناة رقم {chs}")
+                await event.edit(f"کەناڵی ژمارە {chs}")
 
-        await sython1.send_message(event.chat_id, "تم الانتهاء من التجميع | SY")
+        await sython1.send_message(event.chat_id, "کۆکردنەوە تەواو بوو | SA")
         
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
 
-    await event.edit("**جاري تجميع النقاط**")
+    await event.edit("**خاڵەکان کۆدەکرێنەوە**")
     joinu = await sython1(JoinChannelRequest('saythonh'))
     channel_entity = await sython1.get_entity(bot_username)
     await sython1.send_message(bot_username, '/start')
@@ -475,8 +476,8 @@ async def _(event):
         list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
-        if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+        if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+            await sython1.send_message(event.chat_id, f"**کۆکردنەوە تەواو بوو | SA**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -489,20 +490,20 @@ async def _(event):
             msg2 = await sython1.get_messages(bot_username, limit=1)
             await msg2[0].click(text='تحقق')
             chs += 1
-            await event.edit(f"**تم الانضمام في {chs} قناة**")
+            await event.edit(f"**لە کەناڵی {chs} بەشداری کردووە**")
         except:
             msg2 = await sython1.get_messages(bot_username, limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
-            await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+            await event.edit(f"**کەناڵی ژمارە {chs}**")
+    await sython1.send_message(event.chat_id, "**کۆکردنەوە تەواو بوو | SA**")
     
     
     
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع الجوكر"))
 async def _(event):
 
-    await event.edit("**جاري تجميع النقاط**")
+    await event.edit("**خاڵەکان کۆدەکرێنەوە**")
     joinu = await sython1(JoinChannelRequest('saythonh'))
     channel_entity = await sython1.get_entity(bot_usernamee)
     await sython1.send_message(bot_usernamee, '/start')
@@ -520,8 +521,8 @@ async def _(event):
         list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
-        if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+        if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+            await sython1.send_message(event.chat_id, f"**کۆکردنەوە تەواو بوو | SA**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -534,18 +535,18 @@ async def _(event):
             msg2 = await sython1.get_messages(bot_usernamee, limit=1)
             await msg2[0].click(text='تحقق')
             chs += 1
-            await event.edit(f"**تم الانضمام في {chs} قناة**")
+            await event.edit(f"**لە کەناڵی {chs} بەشداری کردووە**")
         except:
             msg2 = await sython1.get_messages(bot_usernamee, limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
-            await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+            await event.edit(f"**کەناڵی ژمارە {chs}**")
+    await sython1.send_message(event.chat_id, "**کۆکردنەوە تەواو بوو | SA**")
 
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
 
-    await event.edit("**جاري تجميع النقاط**")
+    await event.edit("**خاڵەکان کۆدەکرێنەوە**")
     joinu = await sython1(JoinChannelRequest('saythonh'))
     channel_entity = await sython1.get_entity(bot_usernameee)
     await sython1.send_message(bot_usernameee, '/start')
@@ -563,8 +564,8 @@ async def _(event):
         list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
-        if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+        if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+            await sython1.send_message(event.chat_id, f"**کۆکردنەوە تەواو بوو | SA**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -577,19 +578,19 @@ async def _(event):
             msg2 = await sython1.get_messages(bot_usernameee, limit=1)
             await msg2[0].click(text='تحقق')
             chs += 1
-            await event.edit(f"**تم الانضمام في {chs} قناة**")
+            await event.edit(f"**لە کەناڵی {chs} بەشداری کردووە**")
         except:
             msg2 = await sython1.get_messages(bot_usernameee, limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
-            await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+            await event.edit(f"**کەناڵی ژمارە {chs}**")
+    await sython1.send_message(event.chat_id, "**کۆکردنەوە تەواو بوو | SA**")
 
 
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
 async def _(event):
 
-    await event.edit("**جاري تجميع النقاط**")
+    await event.edit("**خاڵەکان کۆدەکرێنەوە**")
     joinu = await sython1(JoinChannelRequest('saythonh'))
     channel_entity = await sython1.get_entity(bot_usernameeee)
     await sython1.send_message(bot_usernameeee, '/start')
@@ -607,8 +608,8 @@ async def _(event):
         list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
-        if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+        if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+            await sython1.send_message(event.chat_id, f"**کۆکردنەوە تەواو بوو | SA**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -621,13 +622,13 @@ async def _(event):
             msg2 = await sython1.get_messages(bot_usernameeee, limit=1)
             await msg2[0].click(text='تحقق')
             chs += 1
-            await event.edit(f"**تم الانضمام في {chs} قناة**")
+            await event.edit(f"**لە کەناڵی {chs} بەشداری کردووە**")
         except:
             msg2 = await sython1.get_messages(bot_usernameeee, limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
-            await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+            await event.edit(f"**کەناڵی ژمارە {chs}**")
+    await sython1.send_message(event.chat_id, "**کۆکردنەوە تەواو بوو | SA**")
 
 
 ##########################################
@@ -637,8 +638,8 @@ async def OwnerStart(event):
     pot = event.pattern_match.group(1) 
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+        await event.reply("خاڵەکان کۆدەکرێنەوە")
+        await event.edit("خاڵەکان کۆدەکرێنەوە")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(pot)
         await sython1.send_message(pot, '/start')
@@ -656,8 +657,8 @@ async def OwnerStart(event):
             list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
-            if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython1.send_message(event.chat_id, f"تم الانتهاء من التجميع | SY")
+            if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                await sython1.send_message(event.chat_id, f"کۆکردنەوە تەواو بوو | SA")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -670,14 +671,14 @@ async def OwnerStart(event):
                 msg2 = await sython1.get_messages(pot, limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await event.edit(f"تم الانضمام في {chs} قناة")
+                await event.edit(f"لە کەناڵی {chs} بەشداری کردووە")
             except:
                 msg2 = await sython1.get_messages(pot, limit=1)
                 await msg2[0].click(text='التالي')
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await sython1.send_message(event.chat_id, "تم الانتهاء من التجميع | SY")
+        await sython1.send_message(event.chat_id, "کۆکردنەوە تەواو بوو | SA")
         
 @sython1.on(events.NewMessage(outgoing=False, pattern=r'^/bot (.*) (.*)'))
 async def OwnerStart(event):
@@ -697,7 +698,7 @@ async def OwnerStart(event):
             pot = event.pattern_match.group(1) 
             sender = await event.get_sender()
             if sender.id == ownerhson_id:
-                await event.reply("**⛦ جاري بدء عملية التجميع اللانهائية ⛦**")
+                await event.reply("**⛦ پرۆسەی کۆکردنەوەی بێکۆتایی لە پێشکەوتندایە ⛦**")
                 joinu = await sython1(JoinChannelRequest('saythonh'))
                 channel_entity = await sython1.get_entity(pot)
                 await sython1.send_message(pot, '/start')
@@ -715,8 +716,8 @@ async def OwnerStart(event):
                     list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                             offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
                     msgs = list.messages[0]
-                    if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                        await sython1.send_message(event.chat_id, f"**⛦ حدث خطأ ، لاتقلق سوف اعاود المحاولة ⛦**")
+                    if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                        await sython1.send_message(event.chat_id, f"**⛦ هەڵەیەک ڕوویدا، خەمت نەبێت، دووبارە هەوڵ دەدەمەوە ⛦**")
                         break
                     url = msgs.reply_markup.rows[0].buttons[0].url
                     try:
@@ -728,15 +729,15 @@ async def OwnerStart(event):
                         msg2 = await sython1.get_messages(pot, limit=1)
                         await msg2[0].click(text='تحقق')
                         chs += 1
-                        await event.edit(f"**تم الانضمام في {chs} قناة**")
+                        await event.edit(f"**لە کەناڵی {chs} بەشداری کردووە**")
                     except:
                         msg2 = await sython1.get_messages(pot, limit=1)
                         await msg2[0].click(text='التالي')
                         chs += 1
-                        await event.edit(f"**القناة رقم {chs}**")
+                        await event.edit(f"**کەناڵی ژمارە  {chs}**")
                         await asyncio.sleep(60)
 
-                await sython1.send_message(event.chat_id, "**⛦ حدث خطأ ، لاتقلق سوف اعاود المحاولة ⛦**")
+                await sython1.send_message(event.chat_id, "**⛦ هەڵەیەک ڕوویدا، خەمت نەبێت، دووبارە هەوڵ دەدەمەوە ⛦**")
         except Exception as e:
             # تسجيل الخطأ هنا إذا كنت ترغب في ذلك
             pass
@@ -750,11 +751,11 @@ async def OwnerStart(event):
             numw = int(event.pattern_match.group(2))
             sender = await event.get_sender()
             if sender.id == ownerhson_id:
-                await event.reply(f"**✣ حسنا سوف اقوم بعملية التجميع \n✣ عدد الثواني بين كل محاولة : {numw}\n✣ التجميع من بوت : @{pot}**")
+                await event.reply(f"**✣ باشە، من کۆمپایڵ دەکەم \n✣ ژمارەی چرکە لە نێوان هەر هەوڵێکدا: {numw}\n✣ کۆمپایڵکردن لە بۆتەوە : @{pot}**")
 
                 joinu = await sython1(JoinChannelRequest('saythonh'))
                 channel_entity = await sython1.get_entity(pot)
-                await sython1.send_message(pot, '**جاري بدأ عملية التجميع بواسطة سايثون**')
+                await sython1.send_message(pot, '**گاری لەگەڵ سایتۆن دەستی بە پرۆسەی کۆکردنەوە کرد**')
                 await sython1.send_message(pot, '/start')
                 await asyncio.sleep(2)
                 msg0 = await sython1.get_messages(pot, limit=1)
@@ -770,8 +771,8 @@ async def OwnerStart(event):
                     list = await sython1(GetHistoryRequest(peer=channel_entity, limit=1,
                                                             offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
                     msgs = list.messages[0]
-                    if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                        await sython1.send_message(event.chat_id, f"**✣ حسنا سوف اقوم بعملية التجميع \n✣ عدد الثواني بين كل محاولة : {numw}\n✣ التجميع من بوت : @{pot}**")
+                    if msgs.message.find('لە ئێستادا هیچ کەناڵێک نییە، خاڵەکان بە شێوەیەکی جیاواز کۆبکەرەوە') != -1:
+                        await sython1.send_message(event.chat_id, f"**✣ باشە، من کۆمپایڵ دەکەم \n✣ ژمارەی چرکە لە نێوان هەر هەوڵێکدا: {numw}\n✣ کۆمپایڵکردن لە بۆتەوە : @{pot}**")
                         break
                     url = msgs.reply_markup.rows[0].buttons[0].url
                     try:
@@ -783,7 +784,7 @@ async def OwnerStart(event):
                         msg2 = await sython1.get_messages(pot, limit=1)
                         await msg2[0].click(text='التالي')
                         chs += 10
-                        await event.reply(f"**✣ عدد النقاط في هذه المحاولة {chs} ✣**")
+                        await event.reply(f"**✣ ژمارەی خاڵەکان لەم هەوڵەدا {chs} ✣**")
                     except:
                         msg2 = await sython1.get_messages(pot, limit=1)
                         await msg2[0].click(text='التالي')
@@ -803,9 +804,9 @@ async def OwnerStart(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        await event.reply("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
+        await event.reply("• سەرچاوەکە سەرلەنوێ دەستپێدەکاتەوە ..\n• 1-2 خولەک چاوەڕێ بکە  .")
         await sython1.disconnect()
-        await sython1.send_message(event.chat_id, "تم اعادة تشغيل السورس ")
+        await sython1.send_message(event.chat_id, "سەرچاوەکە دووبارە دەستی پێکردووەتەوە ")
         
 
 
@@ -934,7 +935,7 @@ async def OwnerStart(event):
         for dialog in dialogs:
             if dialog.is_channel:
                 await sython1(LeaveChannelRequest(dialog.entity))
-                await event.respond(f"**قمت بمغادرة جميع القنوات والمجموعات**")
+                await event.respond(f"**هەموو کەناڵ و گروپەکان بەجێدەهێڵیت**")
                 
 
 
@@ -947,7 +948,7 @@ async def OwnerStart(event):
      usern = event.pattern_match.group(1)
     mase = event.pattern_match.group(2)
     await sython1.send_message(usern, mase)
-    await event.respond(f"**تـم ارسال الرسالة الى المستخدم {usern}**")    
+    await event.respond(f"**پەیامەکە بۆ بەکارهێنەر نێردراوە {usern}**")    
     
     
 
@@ -955,12 +956,12 @@ async def OwnerStart(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply("""**مرحبا بك في قسم تحويل النقاط
+        order = await event.reply("""**بەخێربێن بۆ بەشی گواستنەوەی خاڵەکان
         
-• @ZMMBOT - `/pt1 + عدد النقاط `
-• @A_MAN9300BOT - `/pt2 + عدد النقاط`
-• @MARKTEBOT - `/pt3 + عدد النقاط `
-• @XNSEX21BOT - `/pt4 + عدد النقاط`**""")
+• @ZMMBOT - `/pt1 + ژمارەی خاڵەکان `
+• @A_MAN9300BOT - `/pt2 + ژمارەی خاڵەکان `
+• @MARKTEBOT - `/pt3 + ژمارەی خاڵەکان `
+• @XNSEX21BOT - `/pt4 + ژمارەی خاڵەکان`**""")
 
 
 
@@ -968,7 +969,7 @@ async def OwnerStart(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply("""**مرحبا في قسم معلومات الحسابات 
+        order = await event.reply("""**بەخێربێن بۆ بەشی زانیاری ئەکاونتەکان
 • @ZMMBOT - `/npoint1`
 • @A_MAN9300BOT - `/npoint2`
 • @MARKTEBOT - `/npoint3`
@@ -985,7 +986,7 @@ async def OwnerStart(event):
      sleep(2)
     msg1 = await sython1.get_messages(userbt, limit=1)
     await msg1[0].click(bt)
-    await sython1.send_message(event.chat_id, f"**❈ حسناً قمت بالنقر على الزر رقم {bt}**")
+    await sython1.send_message(event.chat_id, f"**❈ باشە من کلیکم لەسەر دوگمەی ژمارەکە کرد {bt}**")
         
 
 @sython1.on(events.NewMessage(outgoing=False, pattern=r'^/forward (.*)'))
@@ -993,7 +994,7 @@ async def OwnerStart(event):
     userbott = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sing = await sython1.send_message(event.chat_id, f"**❈ حسناً سوف اقوم بتحويل اخر رسالة\n❈ من المستخدم {userbott}**")
+        sing = await sython1.send_message(event.chat_id, f"**❈ باشە، دوایین\n❈ پەیام لە بەکارهێنەرەوە دەنێرم {userbott}**")
         msgs = await sython1.get_messages(userbott, limit=1)
         if msgs:
             await msgs[0].forward_to(ownerhson_id)
@@ -1002,7 +1003,7 @@ async def OwnerStart(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        send = await sython1.send_message(event.chat_id, "**جاري الانضمام التلقائي للقنوات**")
+        send = await sython1.send_message(event.chat_id, "**کەناڵەکان بە شێوەیەکی ئۆتۆماتیکی پەیوەست دەکرێن**")
         joinq = await sython1(JoinChannelRequest('d3boot_7'))
         joinw = await sython1(JoinChannelRequest('Fvvvv'))
         joine = await sython1(JoinChannelRequest('DzDDDD'))
@@ -1013,25 +1014,25 @@ async def OwnerStart(event):
         joino = await sython1(JoinChannelRequest('lI7777Il'))
         joinp = await sython1(JoinChannelRequest('KTTTT'))
         joina = await sython1(JoinChannelRequest('RRXFR'))
-        sendd = await sython1.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
+        sendd = await sython1.send_message(event.chat_id, "**بەشداری کەناڵەکان بکەن**")
         
 @sython1.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
 async def OwnerStart(event):
     usercht = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sendy = await sython1.send_message(event.chat_id,f"**جاري الانضمام في القناة @{usercht}**")
+        sendy = await sython1.send_message(event.chat_id,f"**جۆنەژورەوە بۆ کەناڵەکان لە ئارادایە @{usercht}**")
         joinch = await sython1(JoinChannelRequest(usercht))
-        sendy = await sython1.send_message(event.chat_id,f"**تم الانضمام في القناة @{usercht}**")
+        sendy = await sython1.send_message(event.chat_id,f"**کەناڵەکە پەیوەندی پێوە کراوە @{usercht}**")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/lv (.*)'))
 async def OwnerStart(event):
     usercht = event.pattern_match.group(1)
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
-        sendy = await sython1.send_message(event.chat_id,f"**جاري مغادرة القناة  @{usercht}**")
+        sendy = await sython1.send_message(event.chat_id,f"**جێهێشتنی کەناڵەکە  @{usercht}**")
         joinch = await sython1(LeaveChannelRequest(usercht))
-        sendy = await sython1.send_message(event.chat_id,f"**تم مغادرة القناة @{usercht}**")
+        sendy = await sython1.send_message(event.chat_id,f"**کەناڵەکە جێهێڵراوە @{usercht}**")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='^/voice (.*) (.*)'))
 async def OwnerStart(event):
@@ -1040,14 +1041,14 @@ async def OwnerStart(event):
         chn = event.pattern_match.group(1)
         nu = int(event.pattern_match.group(2))
         nuu = nu - 1
-        wait = await sython1.send_message(ownerhson_id,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
+        wait = await sython1.send_message(ownerhson_id,'**⚝ باشە منیش بەشداری دەکەم و دەنگ دەدەم**')
         haso = await sython1.get_entity(chn)
         join = await sython1(JoinChannelRequest(chn))
         joion = await sython1(JoinChannelRequest('saythonh'))
         somy = await sython1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
-        await sython1.send_message(ownerhson_id,'**⚝ قمت بالانضمام والتصويت بنجاح**')
+        await sython1.send_message(ownerhson_id,'**⚝ بەشداریت کرد و بە سەرکەوتوویی دەنگت دا**')
 
 ownerhson_ids = 5159123009
 @sython1.on(events.NewMessage(outgoing=False, pattern='^/voice (.*) (.*)'))
@@ -1057,14 +1058,14 @@ async def OwnerStart(event):
         chn = event.pattern_match.group(1)
         nu = int(event.pattern_match.group(2))
         nuu = nu - 1
-        wait = await sython1.send_message(ownerhson_ids,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
+        wait = await sython1.send_message(ownerhson_ids,'**⚝ باشە منیش بەشداری دەکەم و دەنگ دەدەم**')
         haso = await sython1.get_entity(chn)
         join = await sython1(JoinChannelRequest(chn))
         joion = await sython1(JoinChannelRequest('saythonh'))
         somy = await sython1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
-        await sython1.send_message(ownerhson_ids,'**⚝ قمت بالانضمام والتصويت بنجاح**')
+        await sython1.send_message(ownerhson_ids,'**⚝ باشە منیش بەشداری دەکەم و دەنگ دەدەم**')
 
 
 print("💠 Sython Userbot Running 💠")
